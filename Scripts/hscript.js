@@ -215,6 +215,7 @@ function minuteTime(num) {
 }
 
 function periodText(inp) {
+    return mapActivity(Object.keys(oshSchedules['mtwthf']).indexOf(inp))
     switch (inp) {
         case "LGO":
             return "Large Group Opening";
