@@ -355,9 +355,19 @@
     height: fit-content;
     background-color: var(--bg-color);
     filter: hue-rotate(180deg) brightness(5);
+    border-radius: var(--border-radius);
     z-index: 2;
   }
-
+  #group-label {
+    font-family: 'Rubik';
+    margin-right: 4px;
+}
+  #group-select-container {
+    padding: 10px;
+    background: black;
+    font-family: 'Rubik';
+    border-radius: var(--border-radius);
+  }
   #allsun {
     position: absolute;
 	top: 2.4%;
