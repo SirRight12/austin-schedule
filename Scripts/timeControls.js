@@ -60,7 +60,7 @@ function displayEndPrompt() {
 
 function isInsideSchool() {
     //if the time is past 11:05, then it's after school, so return false. Otherwise, return true.
-    if (new Date().setHours(11,5,0,0) - new Date() < 0) {
+    if (new Date().setHours(11,30,0,0) - new Date() < 0) {
         return false
     }
     return true
